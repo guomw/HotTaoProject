@@ -55,7 +55,7 @@
             // 
             // Container.Panel1
             // 
-            this.Container.Panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Container.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(108)))), ((int)(((byte)(172)))));
             this.Container.Panel1.Controls.Add(this.pictureBox5);
             this.Container.Panel1.Controls.Add(this.pictureBox4);
             this.Container.Panel1.Controls.Add(this.pictureBox3);
@@ -132,6 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(930, 680);
             this.Controls.Add(this.Container);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
